@@ -1,0 +1,21 @@
+.pushdown {
+  position: absolute;
+  top: 20px;
+  position: relative;
+  left: auto;
+  right: auto;
+}
+
+@media only screen and (max-height: 992px) {
+  .pushdown {
+    position: absolute;
+    top: 10px;
+    position: relative;
+    left: auto;
+    right: auto;
+  }
+}
+
+.dropshadow {
+  text-shadow: 1px 1px black;
+}
